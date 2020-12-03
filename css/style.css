@@ -1,0 +1,17 @@
+/*h1=== deta hai humlko uske andar ek element */
+h1{ color :red;
+}
+/* bina class ke pura same colour ho jata hai under same heading say h1*/
+/* class selector... yha pr .green class bngyi */
+.green{
+    color: green;
+
+}
+/* sibling => element,class........yha .green.small mtlb 2 classes ek sath lag jaegigreen clour + small font */
+.green.small{
+    font-size: 10px;
+}
+/* children selector */
+div h1{ 
+    background-color:blue ;
+}

@@ -1,0 +1,12 @@
+// ci => request
+//npm install request
+let request=require("request");
+//file system
+let fs=require("fs");
+request('http://www.google.com', urlKaAns);
+function urlKaAns(err,response,html){
+    console.log(err);
+    //console.log(response);
+    //console.log(html);
+     fs.writeFileSync("index.html",html);
+}
